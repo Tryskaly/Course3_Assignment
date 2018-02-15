@@ -1,6 +1,4 @@
-==================================================================
-run_analysis.R
-==================================================================
+## run_analysis.R
 
 The script creates a tidy data set with the average of each variable for each activity and each subject from the data base "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip".
 In this case, the folder used to save the files were: "~/Coursera/DataScience/Course3/Week4/Assignment".
@@ -11,5 +9,3 @@ Both sets were merge in the "final_set" and the values (1 to 6) of the variable 
 The variables partially named, in any position, as "mean()" and "std()" where saved in "mean_std_set".
 The "mean_std_set" was melted taking into account the variables "subject" and "activities".
 A for was created to calculate the activity mean of each subject and each variable partially named as "mean()" or "std()" in any position, and all these means where saved in the tidy_set.
-
-======================================
