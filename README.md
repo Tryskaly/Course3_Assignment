@@ -1,4 +1,4 @@
-## run_analysis.R
+## README
 
 The script creates a tidy data set with the average of each variable for each activity and each subject from the data base "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip".
 
